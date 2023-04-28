@@ -1,3 +1,8 @@
+# ARCSKY Notes
+1. python version is very important. Install pyenv and set python global to 3.10.4
+2. when running install script, pip command needs to be updated to use the one in pyenv
+3. manually install attrsdict3 if encountered error
+
 # ArduPilot Project
 
 <a href="https://ardupilot.org/discord"><img src="https://img.shields.io/discord/674039678562861068.svg" alt="Discord">

@@ -106,7 +106,7 @@ find /usr/local/bin -lname '*/Library/Frameworks/Python.framework/*' -delete
 brew update
 brew install gawk curl coreutils wget
 
-PIP=pip
+PIP="pyenv exec pip"
 if maybe_prompt_user "Install python using pyenv [N/y]?" ; then
     echo "Checking pyenv..."
     {
